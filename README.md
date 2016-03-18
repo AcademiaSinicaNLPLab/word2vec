@@ -6,7 +6,6 @@
 ```
 3. Use google_word2vec_pretrained in your project
 ```python
-
 from gensim.models import Word2Vec as W2V
 model_path = 'path/to/google_word2vec_pretrained'
 w2v = W2V.load(model_path)
