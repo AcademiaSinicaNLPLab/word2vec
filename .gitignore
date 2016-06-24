@@ -2,3 +2,4 @@
 *.pyc
 google_word2vec_pretrained.syn0.npy
 google_word2vec_pretrained
+GoogleNews-vectors-negative300.bin
