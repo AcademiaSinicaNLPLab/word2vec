@@ -1,2 +1,4 @@
-google_word2vec_pretrained
 *.npy
+*.pyc
+google_word2vec_pretrained.syn0.npy
+google_word2vec_pretrained
