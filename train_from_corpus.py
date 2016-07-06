@@ -10,7 +10,7 @@ from gensim.models.word2vec import LineSentence
 
 def parse_arg(argv):
     parser = argparse.ArgumentParser(description='train word2vec model')
-    parser.add_argument('-s', '--size', type=int, default=400, help='word vector dimension')
+    parser.add_argument('-s', '--size', type=int, default=300, help='word vector dimension')
     parser.add_argument('-w', '--window', default=5, help='window size')
     parser.add_argument('-m', '--mincount', default=5, help='minimum count for high frequency word')
     parser.add_argument('-d', '--debug', action='store_true', help="store c compaitable model")
